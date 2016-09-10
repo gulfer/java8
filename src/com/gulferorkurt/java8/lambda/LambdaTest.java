@@ -4,6 +4,10 @@ public class LambdaTest {
 
 	public static void main(String[] args) {
 		
+		startThreadWithLambda();
+		
+		startThreadWithInner();
+		
 	}
 	
 	static void startThreadWithLambda() {
